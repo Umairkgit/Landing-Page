@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+    height: 84px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 100px;
+    height: 20px;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.login-btn {
+    width: 77px;
+    height: 40px;
+    color: rgb(82, 170, 77);
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.signup-btn {
+    background-color: rgb(82, 170, 77);
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+
+/* HEADER SECTION  */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-sec {
+    display: flex;
+    gap: 104px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sec h1 {
+    color: #4D4D4D;
+    font-size: 60px;
+    text-shadow: 5px 5px 4px #00000025;
+}
+
+.hero-sec span {
+    color: rgb(82, 170, 77);
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px #00000025;
+}
+
+.hero-sec p {
+    color: #4D4D4D;
+    text-shadow: 5px 5px 4px #00000025;
+    margin-top: 10px;
+}
+
+.primary-btn {
+    background-color: #4CAF4F;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients h1 {
+    font-size: 36px;
+}
+
+.clients p {
+    margin-top: 16px;
+}
+
+.clients-logos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    pad: 10px;
+    margin-top: 25px;
+}
+
+.community {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.community-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.community-groups {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+
+
+
+.primary-heading {
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.primary-para {
+    color: #717171;
+    text-align: center;
+}
+
+.secondary-heading {
+    color: #4D4D4D;
+}
+
+.secondary-para {
+    color: #717171;
+}
+
+
+
+
+
+
+.group {
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
+.unlock-exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unlock-exp-info {
+    width: 600px;
+}
+
+
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.achievements span {
+    color: #4CAF4F;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.calender {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calender-info {
+    width: 600px;
+}
+
+
+.customer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.customer-info {
+    width: 600px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-info h3 {
+    color: #4CAF4F;
+}
+
+
+
+footer {
+    height: 330px;
+    background-color: #263238;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.company-info img {
+    filter: invert();
+}
+
+
+.links {
+    display: flex;
+    gap: 45px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.col ul {
+    list-style: none;
+    color: #F5F7FA;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.col input {
+    border: none;
+    width: 155px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.socials i{
+margin-right: 10px;
+}
+
